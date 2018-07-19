@@ -38,9 +38,9 @@ img{
 
 /* Create four equal columns that sits next to each other */
 .column1 {
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-    max-width: 25%;
+    -ms-flex: 20%; /* IE10 */
+    flex: 20%;
+    max-width: 20%;
     margin-right:10px;
 
 
@@ -53,18 +53,26 @@ img{
 
 }
 
-@media screen and (max-width: 800px) {
-    .column1 {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .column1 {
         -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
     }
+}
+
+.footer div
+{
+
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.footer div a
+{
+
+    display: inline-block;
+   margin: 0;
+
 }
