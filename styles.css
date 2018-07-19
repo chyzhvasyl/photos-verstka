@@ -1,0 +1,70 @@
+a{
+
+    margin-left: 50px;
+}
+body{
+
+    background: radial-gradient(at top, #FAECD5, aliceblue)
+
+}
+h1{
+    color: lightgrey;
+
+
+}
+*{
+box-sizing: border-box;
+
+}
+p {
+    text-indent: 25px;
+    margin-bottom: 0;
+}
+a{
+
+}
+img{
+
+}
+
+
+.row1 {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+
+}
+
+/* Create four equal columns that sits next to each other */
+.column1 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    margin-right:10px;
+
+
+}
+
+.column1 img {
+
+    vertical-align: middle;
+    margin-bottom: 10px;
+
+}
+
+@media screen and (max-width: 800px) {
+    .column1 {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column1 {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
