@@ -69,3 +69,19 @@ img{
     margin-right: 10px;
 
 }
+label {
+    width: 100px;
+}
+label.error {
+    color: red;
+}
+input {
+    border : 1px solid #ccc;
+}
+input.error {
+    border-color: red;
+}
+.content {
+    padding: 15px;
+    border: 1px solid #ccc;
+}
