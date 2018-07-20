@@ -85,3 +85,15 @@ input.error {
     padding: 15px;
     border: 1px solid #ccc;
 }
+.red{
+
+    border-color: red;
+}
+.border{
+    border-color: red;
+
+}
+.border1
+{
+    color: #ccc;
+}
